@@ -65,7 +65,8 @@ function opalesate_property_slide_ranger_template( $label , $data ){
 			'ranger_max' => 1000,
 			'input_min'	 => 0,
 			'input_max'  => 1000,
-			'unit_position'  => 'postfix'
+			'unit_position'  => 'postfix',
+			'step' => 10
 		);
 
 		$data = array_merge( $default, $data );
